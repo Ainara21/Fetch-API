@@ -1,0 +1,126 @@
+@import "lib/vars";
+@import "lib/mixins";
+@import "lib/reboot";
+@import "lib/fontawesome/font-awesome";
+@import "lib/fontface";
+@import "lib/keyframes";
+
+$corporateColor: tomato;
+
+* {
+    // border: 1px solid $corporateColor;
+}
+
+html,
+body {
+    font-size: $base * 2;
+    font-family: $font_family_base;
+    line-height: $base * 3;
+    color: $body_color;
+    min-height: 100vh;
+    background-color: rgb(15, 13, 20);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .container{
+        width: 500px;
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-top: 8rem;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius:50px ;
+        border-bottom-right-radius:50px ;
+        box-shadow:         3px 3px 20px 2px rgb(236, 236, 175);
+
+    }
+    
+
+
+    .name {
+        background-color: rgb(72, 100, 91);
+        color: rgb(224, 224, 109);
+        font-size: 3rem;
+        padding: 2rem;
+       
+
+
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: center;
+        
+      
+        
+        // .fa-question-circle{
+        //     padding-right: 3rem;
+           
+        // }
+
+    }
+    .life-span {
+        background-color: rgb(70, 126, 108);
+        color: rgb(236, 236, 175);
+        font-size: 2rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+
+    }
+    .classification{
+        background-color: rgb(70, 126, 108);
+        color: rgb(236, 236, 175);
+        font-size: 2rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+
+    }
+    .height{
+        background-color: rgb(70, 126, 108);
+        color: rgb(236, 236, 175);
+        font-size: 2rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+
+    }
+    .eye-color{
+        background-color: rgb(70, 126, 108);
+        color: rgb(236, 236, 175);
+        font-size: 2rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+
+    }
+    .language{
+        background-color: rgb(70, 126, 108);
+        color: rgb(236, 236, 175);
+        font-size: 2rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+        border-bottom-left-radius:50px ;
+        border-bottom-right-radius:50px ;
+
+    }
+
+}
